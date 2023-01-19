@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: #f8b195;
+    box-shadow: 0px 0px 10px black;
+    max-width: 300px;
+    min-width: 300px;
+}
+
+.card li {
+    list-style-type: none;
+    padding: 15px;
+    margin: 15px;
+    background-color: #f67280;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 270px;
+    min-width: 270px;
+
+}
+
+.glav {
+    border-radius: 10px 10px 0px 0px;
+    background-color: #c06c84;
+    padding: 15px;
+    border-bottom: 1px solid gray;
+    max-width: 300px;
+    min-width: 300px;
+    text-align: center;
+}
+
+.glav button {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    position: relative;
+    top: 2.5px;
+}
+
+.glav input {
+    padding: 5px;
+}
+
